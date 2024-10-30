@@ -1,4 +1,4 @@
-FROM node:14.20.0-alpine3.16 as build
+FROM node:14.20.0-alpine3.16 AS build
 
 RUN apk add git --no-cache
 WORKDIR "/src"
